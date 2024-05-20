@@ -6,5 +6,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    <CounterTwo />
+    <Contador />
   </React.StrictMode>,
 )
