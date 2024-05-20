@@ -4,7 +4,7 @@ import './App.css';
 // Componente Likes
 
 const Likes = () => {
-  const [likes, setLikes] = useState();
+  const [likes, setLikes] = useState(0);
 
   const increase = () => {
     setLikes(likes + 1);
